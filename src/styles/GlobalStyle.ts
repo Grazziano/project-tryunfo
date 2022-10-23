@@ -11,13 +11,19 @@ export default createGlobalStyle`
     height: 100%;
   }
 
-  *, button, input {
+  /* *, button, input {
     border: 0;
     outline: 0;
     font-family: 'Roboto', sans-serif;
-  }
+  } */
 
   button {
     cursor: pointer;
+  }
+
+  .app {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
   }
 `;
